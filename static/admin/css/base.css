@@ -11,10 +11,10 @@
   --accent: #f5dd5d;
   --primary-fg: #fff;
 
-  --body-fg: #333;
+  --body-fg: rgb(242, 235, 235);
   --body-bg: #fff;
-  --body-quiet-color: #666;
-  --body-loud-color: #000;
+  --body-quiet-color: rgb(245, 245, 245);
+  --body-loud-color: rgb(244, 239, 239);
 
   --header-color: #ffc;
   --header-branding-color: var(--accent);
@@ -82,7 +82,7 @@
     --message-warning-bg: #583305;
     --message-error-bg: #570808;
 
-    --darkened-bg: #212121;
+    --darkened-bg: #e6e4e4;
     --selected-bg: #1b1b1b;
     --selected-row: #00363a;
 

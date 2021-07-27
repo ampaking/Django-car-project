@@ -11,8 +11,9 @@ class Contact(models.Model):
     car_title = models.CharField(max_length=200)
     city = models.CharField(max_length=200)
     state = models.CharField(max_length=200)
+    phone = models.CharField(max_length=200)
     email = models.EmailField(max_length=200)
-    messages = models.TextField(blank=True)
+    message = models.TextField(blank=True)
     user_id = models.IntegerField(blank=True)
     create_date = models.DateTimeField(blank=True, default= datetime.now())
 
