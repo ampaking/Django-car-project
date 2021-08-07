@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+)0ewm1339$ykwo^x#rw6e@!v7cil^4!&pfm%)#64#7vhy8kng'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['calm-falls-92041.herokuapp.com','carzone.khandakerit.com','www.carzone.khandakerit.com']
 
